@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+    --black-gradient: linear-gradient( 144.39deg, #ffffff -278.56%, #6d6d6d -78.47%, #11101d 91.61%);
+    --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: none;
+}
+
+.text-gradient {
+    background: radial-gradient( 64.18% 64.18% at 71.16% 35.69%, #fce4ec 0.89%, /* lightest pink */
+    #f8bbd0 17.23%, /* soft pink */
+    #f48fb1 42.04%, /* medium pink */
+    #f06292 55.12%, /* strong pink */
+    #ec407a 71.54%, /* bold pink */
+    #e91e63 100%/* deep pink */
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.h5_headding_gradient {
+    background: radial-gradient( 64.18% 64.18% at 71.16% 35.69%, #ff7eb9 0%, /* light visible pink */
+    #ff4fa0 40%, /* soft vibrant pink */
+    #d63384 80%, /* richer pink */
+    #a61b5c 100%/* deep but visible pink */
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-family: 'Playfair Display', serif;
+    /* Elegant font for distinction */
+}
+
+.h3_heading_gradient {
+    background: linear-gradient( 135deg, #ff9a9e 0%, /* soft coral pink */
+    #fad0c4 25%, /* light peachy blend */
+    #fbc2eb 50%, /* soft pinkish-lavender */
+    #a18cd1 75%, /* soft purple-blue */
+    #fbc2eb 100%/* balance back with pink tint */
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.h1_headding_gradient {
+    background: radial-gradient( 64.18% 64.18% at 71.16% 35.69%, rgba(173, 216, 230, 0.9) 0%, /* light aqua blue */
+    rgba(135, 206, 250, 0.85) 35%, /* sky blue */
+    rgba(100, 181, 246, 0.8) 70%, /* soft cool blue */
+    rgba(33, 150, 243, 0.75) 100%/* primary light blue */
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.navbar_gradient_background {
+    background: linear-gradient( 135deg, rgb(0, 0, 0) 0%, rgb(10, 10, 30) 25%, rgb(3, 7, 46) 50%, rgb(10, 10, 30) 75%, rgb(0, 0, 0) 100%);
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.sidebar_gradient_background {
+    background: linear-gradient( 135deg, rgb(0, 0, 0) 0%, rgb(10, 10, 30) 25%, rgb(3, 7, 46) 50%, rgb(10, 10, 30) 75%, rgb(0, 0, 0) 100%);
+}
+
+.bg-blue-gradient {
+    background: linear-gradient( 157.81deg, #def9fa -43.27%, #bef3f5 -21.24%, #9dedf0 12.19%, #7de7eb 29.82%, #5ce1e6 51.94%, #33bbcf 90.29%);
+}
+
+.sidebar_gradient {
+    background: linear-gradient( 135deg, rgb(0, 0, 0) 0%, rgb(10, 10, 30) 25%, rgb(3, 7, 46) 50%, rgb(10, 10, 30) 75%, rgb(0, 0, 0) 100%);
+}
+
+.sidebar {
+    -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-top {
+    0% {
+        -webkit-transform: translateY(100px);
+        transform: translateY(100px);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes slide-top {
+    0% {
+        -webkit-transform: translateY(100px);
+        transform: translateY(100px);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+.blue__gradient {
+    background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+    filter: blur(123px);
+}
+
+.pink__gradient {
+    background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+    filter: blur(900px);
+}
+
+.white__gradient {
+    background: rgba(255, 255, 255, 0.6);
+    filter: blur(750px);
+}
