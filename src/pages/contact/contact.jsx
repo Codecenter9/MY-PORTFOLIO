@@ -147,7 +147,12 @@ const Contact = () => {
 
           {[
             { name: "name", placeholder: "Your name", required: true },
-            { name: "email", placeholder: "Email / Phone", required: true },
+            {
+              name: "email",
+              placeholder: "Email",
+              type: "email",
+              required: true,
+            },
             { name: "subject", placeholder: "Subject" },
             {
               name: "message",
