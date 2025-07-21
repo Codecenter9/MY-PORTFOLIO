@@ -4,22 +4,22 @@ const steps = [
   {
     title: "1. Discovery",
     description:
-      "We begin by diving deep into your vision and goals to fully understand the project's scope and direction.",
+      "I begin by diving deep into your vision and goals to fully understand the project's scope and direction.",
   },
   {
     title: "2. Planning",
     description:
-      "We organize your ideas into a clear development roadmap, setting timelines, features, and priorities.",
+      "I organize your ideas into a clear development roadmap, setting timelines, features, and priorities.",
   },
   {
     title: "3. Design & Development",
     description:
-      "Our team creates modern UI/UX designs and implements scalable code with your feedback at every step.",
+      "I creates modern UI/UX designs and implements scalable code with your feedback at every step.",
   },
   {
     title: "4. Launch & Support",
     description:
-      "After testing, we deploy your product and provide continuous updates and technical support as needed.",
+      "After testing, I deploy your product and provide continuous updates and technical support as needed.",
   },
 ];
 
@@ -30,14 +30,14 @@ const HowWorks = () => {
         className="text-[36px] font-bold mb-6 h1_headding_gradient"
         data-aos="fade-up"
       >
-        How We Work
+        How I Work
       </h2>
       <p
         className="text-[18px] text-gray-300 max-w-3xl mx-auto mb-12"
         data-aos="fade-up"
         data-aos-delay="100"
       >
-        Our process is designed to be efficient, collaborative, and transparent—
+        My process is designed to be efficient, collaborative, and transparent—
         guiding you from idea to launch and beyond.
       </p>
 
