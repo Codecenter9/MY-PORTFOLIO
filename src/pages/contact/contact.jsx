@@ -28,15 +28,15 @@ const Contact = () => {
     },
     {
       icon: Linkedin,
-      link: "#",
+      link: "https://www.linkedin.com/in/juhar-endris-5b409b376/",
     },
     {
       icon: Twitter,
-      link: "#",
+      link: "https://x.com/JuharE7141",
     },
     {
       icon: Instagram,
-      link: "#",
+      link: "https://www.instagram.com/juhar735/",
     },
   ];
 
@@ -229,7 +229,7 @@ const Contact = () => {
               text: "juharendrishu@gmail.com",
               title: "Email Address",
             },
-            { icon: Phone, text: "+982648798", title: "Phone Address" },
+            { icon: Phone, text: "+251982648798", title: "Phone Address" },
           ].map((item, index) => (
             <li key={index} className="flex items-center gap-4">
               <div className="w-14 h-14 flex items-center justify-center">
@@ -257,7 +257,7 @@ const Contact = () => {
             <a
               key={idx}
               href={sociallink.link}
-              target={sociallink.icon == Telegram ? "_blank" : ""}
+              target={sociallink.link == "#" ? "" : "_blank"}
               className="hover:scale-110 transition-transform"
             >
               <img

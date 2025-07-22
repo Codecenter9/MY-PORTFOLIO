@@ -72,7 +72,7 @@ const AboutMe = () => {
 
       <div className="bg-primary w-full flex justify-center pt-16 px-6">
         <div className="details w-full md:w-[75%] text-white space-y-6 pb-10">
-          <h2 className="text-2xl font-bold h3_heading_gradient">Details</h2>
+          <h1 className="text-2xl font-bold h3_heading_gradient">Details</h1>
 
           <p className="text-base leading-7 text-gray-300">
             My name is Juhar Endris, and I completed my degree in Electrical and
