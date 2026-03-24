@@ -223,7 +223,7 @@ const Contact = () => {
         <h3 className="text-2xl font-semibold mb-4 text-white">Address</h3>
         <ul className="space-y-6 w-full">
           {[
-            { icon: Location, text: "Hawassa, Ethiopia", title: "Address" },
+            { icon: Location, text: "Addis Ababa, Ethiopia", title: "Address" },
             {
               icon: Email,
               text: "juharendrishu@gmail.com",
