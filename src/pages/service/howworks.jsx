@@ -25,7 +25,7 @@ const steps = [
 
 const HowWorks = () => {
   return (
-    <section className="w-[90%] my-20 text-white">
+    <section className="w-full my-20 text-white">
       <div className=" mb-12" data-aos="fade-right" data-aos-delay="300">
         <h3 className="h5_headding_gradient">MY PROCESS</h3>
         <h2 className="text-[38px] font-bold mb-4 h1_headding_gradient">
