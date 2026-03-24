@@ -26,22 +26,17 @@ const steps = [
 const HowWorks = () => {
   return (
     <section className="w-[90%] mx-auto my-20 text-white text-center">
-      <h2
-        className="text-[36px] font-bold mb-6 h1_headding_gradient"
-        data-aos="fade-up"
-      >
-        How I Work
-      </h2>
-      <p
-        className="text-[18px] text-gray-300 max-w-3xl mx-auto mb-12"
-        data-aos="fade-up"
-        data-aos-delay="100"
-      >
-        My process is designed to be efficient, collaborative, and transparent—
+      <div className=" mb-12" data-aos="fade-right" data-aos-delay="300">
+        <h3 className="h5_headding_gradient">MY PROCESS</h3>
+        <h2 className="text-[38px] font-bold mb-4 h1_headding_gradient">
+          How I Work
+        </h2>
+        <strong className="block text-[22px] font-normal text-gray-300">
+          My process is designed to be efficient, collaborative, and transparent—
         guiding you from idea to launch and beyond.
-      </p>
-
-      <div
+        </strong>
+      </div>
+          <div
         className="flex flex-wrap justify-center gap-6"
         data-aos="fade-up"
         data-aos-delay="300"
