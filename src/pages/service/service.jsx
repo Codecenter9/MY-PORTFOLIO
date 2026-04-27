@@ -45,7 +45,7 @@ const Service = () => {
   return (
     <section
       id="services"
-      className={`services_section text-white relative overflow-hidden ${styles.paddingY} ${styles.paddingX}`}
+      className={` text-white relative overflow-hidden ${styles.paddingY} mt-24`}
     >
       {/* Section Headings */}
       <div className=" mb-12" data-aos="fade-right" data-aos-delay="300">
@@ -86,7 +86,6 @@ const Service = () => {
           </div>
         ))}
       </div>
-      <HowWorks />
     </section>
   );
 };

@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-import styles from "../style";
 import AOSInitializer from "../components/AOSInitializer.jsx";
 import Contact from "../pages/contact/contact";
 import Footer from "../components/footer/footer";

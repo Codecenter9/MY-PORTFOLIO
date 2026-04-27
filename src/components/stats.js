@@ -11,7 +11,7 @@
      {
          id: "stats-3",
          title: "Client Satisfaction",
-         value: "100%",
+         value: "98%",
      },
  ];
 

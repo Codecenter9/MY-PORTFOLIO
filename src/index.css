@@ -68,12 +68,12 @@
     text-fill-color: transparent;
 }
 
-.navbar_gradient_background {
+/* .navbar_gradient_background {
     background: linear-gradient( 135deg, rgb(0, 0, 0) 0%, rgb(10, 10, 30) 25%, rgb(3, 7, 46) 50%, rgb(10, 10, 30) 75%, rgb(0, 0, 0) 100%);
     position: fixed;
     width: 100%;
     z-index: 999;
-}
+} */
 
 .sidebar_gradient_background {
     background: linear-gradient( 135deg, rgb(0, 0, 0) 0%, rgb(10, 10, 30) 25%, rgb(3, 7, 46) 50%, rgb(10, 10, 30) 75%, rgb(0, 0, 0) 100%);

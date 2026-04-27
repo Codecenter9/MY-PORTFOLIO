@@ -7,6 +7,7 @@ import CTA1 from "./components/CTA/cta1";
 import Contact from "./pages/contact/contact";
 import Footer from "./components/footer/footer";
 import AOSInitializer from "./components/AOSInitializer.jsx";
+import Portfolio from "./pages/portfolio/portfolio.jsx";
 const MainLayout = () => {
   return (
     <div className="bg-primary">
@@ -14,7 +15,7 @@ const MainLayout = () => {
       <Home />
       <About />
       <CTA1 />
-      <Service />
+      <Portfolio />
       <Contact />
       <Footer />
     </div>

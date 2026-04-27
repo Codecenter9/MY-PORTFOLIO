@@ -24,7 +24,7 @@ const Hero = () => {
       className={`hero_section ${styles.paddingY} relative overflow-hidden`}
     >
       <div
-        className={`fixed top-[60px] sidebar_gradient_background left-0 h-[500px] w-[400px] bg-primary text-white shadow-lg z-50 transform transition-transform duration-500 ease-in-out ${
+        className={`fixed top-[60px] bg-transparent backdrop-blur-2xl left-0 h-[500px] w-[400px] bg-primary text-white shadow-lg z-50 transform transition-transform duration-500 ease-in-out ${
           openSidebar ? "translate-x-0" : "-translate-x-full"
         }`}
       >
@@ -83,18 +83,18 @@ const Hero = () => {
             <span className="inline-block animate-wave origin-[70%_70%]">
               👋
             </span>
-            <span className="text-gradient">, I'm Juhar</span>
+            <span className="font-serif text-gradient">, I'm Juhar</span>
           </h1>
 
           <h2
-            className="font-poppins text-gradient font-semibold ss:text-[35px] text-[28px] text-white ss:leading-[50.8px] leading-[60px]"
+            className="font-serif text-gradient font-semibold ss:text-[35px] text-[28px] text-white ss:leading-[50.8px] leading-[60px]"
             data-aos="zoom-in"
           >
             Full Stack Developer
           </h2>
 
           <p
-            className="font-poppins font-medium ss:text-[26px] text-[23px] text-white leading-[35px] mt-4"
+            className="font-serif font-medium ss:text-[26px] text-[23px] text-white leading-[35px] mt-4"
             data-aos="fade-up"
           >
             I'm a Full-Stack Developer specializing in creating seamless user
